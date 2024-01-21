@@ -132,7 +132,7 @@ int readLightSensor() {
     //customDelay(1000);   // Custom delay for 1 second
     //ADCON0 &= 0b11000011; // Clear the channel selection bits
     //ADCON0 |= 0b00000000; // Set the channel selection bits for channel 0 (binary 00000 shifted left by 3 bits)
-    return ADC_Read(0);
+    return ADC_Read_0();
 }
 
 int readTemperatureSensor() {
@@ -140,7 +140,7 @@ int readTemperatureSensor() {
     customDelay(1000);   // Custom delay for 1 second
     ADCON0 &= 0b11000011; // Clear the channel selection bits
     ADCON0 |= 0b00001000; // Set the channel selection bits for channel 1 (binary 00001 shifted left by 3 bits)
-    return ADC_Read(1);
+    return ADC_Read_1();
 }
 
 int readHumiditySensor() {
