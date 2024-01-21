@@ -109,7 +109,7 @@ void interrupt(void){
 void initialize() {
     // Configure ADC
     ADCON1 = 0x80; // Configure PORTA pins as analog
-    ADC_Init();
+    ADT_Init();
 
     // Configure PWM
     configurePWM();
