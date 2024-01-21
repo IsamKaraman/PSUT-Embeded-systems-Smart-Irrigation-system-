@@ -2,4 +2,4 @@
 This is project is a smart irrigation system based on pic16f877a.We used LM35 temperature sensor , soil humidity sensor and a ldr light sensor . If the temprature wss higher than certain threshold or the humidity of the soil is low , a water pump is opened to irrigate the plant . and if the lighting conditions is dark a small led is lit . we also have an LCD display.
 
 <p align="center">
-  <img src="embedded 1.jpg" alt="Image" width="360">
+  <img src="embeded 1.jpg" alt="Image" width="360"/>
